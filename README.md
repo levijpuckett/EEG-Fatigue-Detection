@@ -21,4 +21,4 @@ Training data gathered from individuals in a rested and fatigued state was used 
 The length of a single sample of raw EEG data (epoch length) may be treated as a hyperparameter of the model. Variations in epoch length have an effect on classification accuracy; however, its effect is less impactful than the length of the feature vector. The figure below shows how the generalization error changes with both epoch length and number of features. The feature "salience" was determined by a neighbourhood component analysis on the feature space. On the graph below, features are added in order of descending NCA weight (saliency).
 
 
-![Alt text](NEWESTnewSURF copy.png?raw=true "Model accuracy with number of features and length of epoch.")
+![Alt text](Acc-vs-epoch-features.png?raw=true "Model accuracy with number of features and length of epoch.")
